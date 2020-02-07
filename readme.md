@@ -1,6 +1,16 @@
 in reference to the requirements in 
 ./MJ Freeway Skills Assessment_20200121.pdf
 
+aspects addressed:
+data input validation - was built in a way so that no user input is typed in.  its all based on "clicks"
+mysql database - added the drinks to a mysql database 
+mvc - used orm model, controllers, and blade views (even with ajax)
+logic - my process should be (subjective to me) easy to follow.  All the js code is in an external file except for the landing page for document loading function
+design - I had a little fun with it by adding pictures and different stage of caffination pictures
+function - I suppose you will have to determine if it meets all the requirements :) 
+api - because I used the jquery method, the api model didn't feel right.  I could have added a log api to CRUD the log (but sorry I didn't) - it would have been a simple laravel resource  
+
+
 .env adds a new key
 
 SAVE_CAFFEINE_AMOUNT=500
