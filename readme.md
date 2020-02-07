@@ -1,3 +1,6 @@
+in reference to the requirements in 
+./MJ Freeway Skills Assessment_20200121.pdf
+
 .env adds a new key
 
 SAVE_CAFFEINE_AMOUNT=500
