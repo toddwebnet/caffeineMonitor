@@ -1,3 +1,9 @@
+.env adds a new key
+
+SAVE_CAFFEINE_AMOUNT=500
+
+
+
 OK... to setup hosting, I used Vagrant.  I build a vagrant framework to easily stand up stuff
 
 https://bitbucket.org/toddwebnet2/vagrant
@@ -39,6 +45,7 @@ cd www/mjFreeway
 cd vagrant
 sudo bash setup.sh 
 cd ..
+php artisan key:generate
 php artisan migrate
 php artisan db:seed
 
