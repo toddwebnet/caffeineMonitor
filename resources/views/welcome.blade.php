@@ -5,7 +5,11 @@
             id="mainContainer"
     >
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-1">
+                <img id="man" class="float-right" src="images/sleepy_man.jpg" style="max-height:150px; max-width: 300px"/>
+            </div>
+            <div class="col-md-5">
+
                 <b>Current Caffeine Intake:</b> <span id="curCaff"></span> mg
                 <BR/>
                 <b>Max Safe Caffeine Intake:</b> <span id="maxCaff"></span> mg

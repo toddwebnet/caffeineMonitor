@@ -16,9 +16,25 @@ function loadDefaultValues () {
   })
 }
 
+function swapPicture (percent) {
+  if (percent < 25) {
+    image = '/images/sleepy_man.jpg'
+  } else if (percent < 50) {
+    image = '/images/happy_man.jpg'
+  } else if (percent < 85) {
+    image = '/images/jittery_man.jpg'
+  } else {
+    image = '/images/heart_man.jpg'
+  }
+  $('#man').attr('src', image)
+
+}
+
 function updateCaffBoxes () {
   document.getElementById('curCaff').innerHTML = curCaff
   document.getElementById('maxCaff').innerHTML = maxCaff
+  swapPicture(curCaff / maxCaff * 100)
+
   drinks = []
   var buttonCount = $('.injestButton').length
   var drinksOn = false
@@ -33,8 +49,9 @@ function updateCaffBoxes () {
     } else {
       drinksOn = true
     }
-    if(index === (buttonCount-1)){
-      if(!drinksOn){
+    if (index === (buttonCount - 1)) {
+      if (!drinksOn) {
+        swapPicture(100)
         logNoMoreDrinks()
       }
     }
@@ -71,7 +88,7 @@ function updateLog (id, caff) {
   $('#log').append(log)
 }
 
-function logNoMoreDrinks(){
+function logNoMoreDrinks () {
   log = '<div style=\'text-align:left\'>No more drinks buddy, your heart can\'t take it.</div>'
   $('#log').append(log)
 }
