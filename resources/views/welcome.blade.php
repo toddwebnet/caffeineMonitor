@@ -5,15 +5,23 @@
             id="mainContainer"
     >
         <div class="row">
-
-                Current Caffeine Intake: <input id="curCaff"/>
+            <div class="col-md-6">
+                <b>Current Caffeine Intake:</b> <span id="curCaff"></span> mg
                 <BR/>
-                Max Caffeine Intake: <input id="maxCaff"/>
+                <b>Max Safe Caffeine Intake:</b> <span id="maxCaff"></span> mg
+            </div>
+            <div class="col-md-6"
+                    id="log"
+            >
+                <div style="text-align:left;font-weight:bold"> Drink Log</div>
+            </div>
         </div>
-        <div class="row" id="drinkHolder">
+        <hr/>
+        <div class="row"
+                id="drinkHolder"
+        >
 
-            </div>
-            </div>
+        </div>
 
     </div>
     <script type="text/javascript">

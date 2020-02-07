@@ -10,7 +10,7 @@
                     src="{{ $drink->image }}"
                     style="max-width: 300px; max-height: 100px"
             />
-            <b>{{$drink->name}}</b><BR/>
+            <b><span id="drink_name_{{$drink->id}}">{{$drink->name}}</span></b><BR/>
             {{$drink->descr}}
             <BR/><b>Caffeine: </b>{{$drink->caff}} mg
             <BR/><b>Safe Drinks Left: </b> <span id="numDrinks_{{$drink->id}}"></span>
