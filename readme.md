@@ -2,11 +2,15 @@
 
 SAVE_CAFFEINE_AMOUNT=500
 
+system will default to 500 if not set, so you can adjust this
+
 
 
 OK... to setup hosting, I used Vagrant.  I build a vagrant framework to easily stand up stuff
 
 https://bitbucket.org/toddwebnet2/vagrant
+
+I have oracle virtualbox and vagrant installed.
 
 config.yaml for vagrant should look like:
 
@@ -53,4 +57,10 @@ once loaded (and hopefully everything works)
 
 you can go to your browser to http://mjFreeway.local.com and see the app
 
+or ... 
+
+if you don't want that route. 
+you could change the driver to sqllite or have a mysql server setup somewhere
+and use
+php artisan serve
 
