@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
 
-    <title>MJ Freeway</title>
+    <title>Caffeine Monitor</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -36,7 +36,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">MJ Freeway</a>
+            <a class="navbar-brand" href="#">Caffeine Monitor</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             {{--            <ul class="nav navbar-nav">--}}

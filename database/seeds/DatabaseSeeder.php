@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Monster Ultra Sunrise',
                 'descr' => 'A refreshing orange beverage that has 75mg of caffeine per serving. Every can has two servings.',
-                'caff' => 75,
+                'caff' => 150,
                 'image' => '/images/MonsterUltraSunrise.jpg'
             ],
             [
@@ -33,7 +33,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Sugar free NOS',
                 'descr' => 'Another orange delight without the sugar. It has 130 mg. per serving and each can has two servings.',
-                'caff' => 130,
+                'caff' => 260,
                 'image' => '/images/SugarFreeNOS.jpg'
             ],
             [

@@ -1,5 +1,5 @@
 
-CREATE USER 'mjFreeway'@'%' IDENTIFIED BY 'jSuZ7ugR7SKB9Afm';
-CREATE DATABASE IF NOT EXISTS `mjFreeway`;
-GRANT ALL PRIVILEGES ON `mjFreeway`.* TO 'mjFreeway'@'%';GRANT ALL PRIVILEGES ON `mjFreeway\_%`.* TO 'mjFreeway'@'%';
+CREATE USER 'caffeineMonitor'@'%' IDENTIFIED BY 'jSuZ7ugR7SKB9Afm';
+CREATE DATABASE IF NOT EXISTS `caffeineMonitor`;
+GRANT ALL PRIVILEGES ON `caffeineMonitor`.* TO 'caffeineMonitor'@'%';GRANT ALL PRIVILEGES ON `caffeineMonitor\_%`.* TO 'caffeineMonitor'@'%';
 flush privileges;
